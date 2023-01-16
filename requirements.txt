@@ -1,0 +1,4 @@
+pandas
+numpy
+black
+pyspark==3.3.1
