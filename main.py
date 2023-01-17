@@ -21,5 +21,6 @@ def get_dataframe_list(paths: list) -> list:
 if __name__ == "__main__":
     file_paths = get_file_paths()
     spark_handler = SparkCSVConcater()
-    spark_handler.concat_multiple_csvs(file_paths)
+    spark_handler.load_data(file_paths)
+    spark_handler.show_head_of_res(5)
     print("file Saved")

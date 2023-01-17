@@ -8,6 +8,7 @@ pandas = "*"
 numpy = "*"
 black = "*"
 pyspark = "==3.3.1"
+quinn = "*"
 
 [dev-packages]
 
